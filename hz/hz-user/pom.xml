@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>hz</artifactId>
+        <groupId>com.hz.parent</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>hz-user-interface</module>
+        <module>hz-user-service</module>
+    </modules>
+
+    <groupId>com.hz.service</groupId>
+    <artifactId>hz-user</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+
+</project>

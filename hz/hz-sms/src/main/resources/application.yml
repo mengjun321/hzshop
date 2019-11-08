@@ -1,0 +1,15 @@
+# 配置短信相关信息
+hz:
+  sms:
+    acessKeyId: LTAIHsLVzSBm2G8a
+    accessKeySecret: 99CL6YJY260YF07Vu6JLr8J7qxq1IV
+    signName: 合众商城
+    templateCode:  SMS_169904124
+
+# 配置rabbitMQ
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest

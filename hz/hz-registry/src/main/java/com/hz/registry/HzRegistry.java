@@ -1,0 +1,13 @@
+package com.hz.registry;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@SpringBootApplication
+@EnableEurekaServer
+public class HzRegistry {
+    public static void main(String[] args) {
+        SpringApplication.run(HzRegistry.class, args);
+    }
+}
